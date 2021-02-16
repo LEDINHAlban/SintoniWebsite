@@ -1,0 +1,94 @@
+<html>
+<head><link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<meta charset="utf-8" />
+    <link rel="stylesheet" href="gym.css" />
+	 <title>Quiz</title>
+<style>
+  body
+  {
+    background-color: black; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+  }
+  </style>
+</head>
+<body>
+  <div class="container">
+  </br></br>
+    <h2>Gym Quiz</h2>
+  </br>
+    <form action="quiz_result.php" method="POST"> 
+     <ul> 
+    <p>1. What are the chest Muscles called ?</p>
+    <div><input type="radio" name="q1" id="q1A" value="1A" />
+    <label for="q1A">A) Abdominals </label></div>
+
+    <div><input type="radio" name="q1" id="q1B" value="1B" />
+    <label for="q1B">B) Biceps</label></div>
+
+    <div><input type="radio" name="q1" id="q1C" value="1C" />
+    <label for="q1C">C) Pectorals</label></div>
+
+    <div><input type="radio" name="q1" id="q1D" value="1D" />
+    <label for="q1D">D) Deltoids</label></div>
+    </ul>
+  <!-- ====================================================== -->
+    <ul> 
+    <p>2. What piece of equipment can be used to train the pectoral muscles ?</p>
+    <div><input type="radio" name="q2" id="q2A" value="2A" />
+    <label for="q2A">A) Treadmill </label></div>
+
+    <div><input type="radio" name="q2" id="q2B" value="2B" />
+    <label for="q2B">B) Bench Press</label></div>
+
+    <div><input type="radio" name="q2" id="q2C" value="2C" />
+    <label for="q2C">C) Rowing Machine</label></div>
+
+    <div><input type="radio" name="q2" id="q2D" value="2D" />
+    <label for="q2D">D) Kettle Bell</label></div>
+    </ul>
+    <!-- ====================================================== -->
+    <ul> 
+    <p>3. What is the most commonly used number of sets to train strength ?</p>
+    <div><input type="radio" name="q3" id="q3A" value="3A" />
+    <label for="q3A">A) 5 </label></div>
+
+    <div><input type="radio" name="q3" id="q3B" value="3B" />
+    <label for="q3B">B) 2</label></div>
+
+    <div><input type="radio" name="q3" id="q3C" value="3C" />
+    <label for="q3C">C) 1</label></div>
+
+    <div><input type="radio" name="q3" id="q3D" value="3D" />
+    <label for="q3D">D) 3</label></div>
+    </ul>
+     <!-- ====================================================== -->
+    <ul> 
+    <p>4. When lifting heavy weights from the floor, what is the correct technique ?</p>
+    <div><input type="radio" name="q4" id="q4A" value="4A" />
+    <label for="q4A">A) Bent legs, bent back </label></div>
+
+    <div><input type="radio" name="q4" id="q4B" value="4B" />
+    <label for="q4B">B) Straight legs, bent back</label></div>
+
+    <div><input type="radio" name="q4" id="q4C" value="4C" />
+    <label for="q4C">C) Bent legs, straight back</label></div>
+
+    <div><input type="radio" name="q4" id="q4D" value="4D" />
+    <label for="q4D">D) Straight legs, straight back</label></div>
+    </ul>
+    <!-- ====================================================== -->
+    <ul> 
+    <p>5. A rowing machine trains arms, legs and abdominals ?</p>
+    <div><input type="radio" name="q5" id="q5A" value="5A" />
+    <label for="q5A">A) True </label></div>
+
+    <div><input type="radio" name="q5" id="q5B" value="5B" />
+    <label for="q5B">B) False</label></div>
+    </ul>
+
+    <input type="submit" class="submit btn btn-primary" value="Submit Quiz" />
+    </form>
+   </div>
+  </body>
+</html>
